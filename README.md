@@ -49,7 +49,7 @@ The program records the number of raises and the player's choice.
 Computer decision-making:
 The computer1 function is used to determine whether the computer decides whether to raise based on the known card value.
 Based on the current round and the known card points, the computer will evaluate the total points of the card and make decisions based on specific conditions.
-If the card value falls below a certain threshold, the computer will choose to stop raising (returning 's'), otherwise it will choose to continue raising (returning 'c').
+If the card value falls below a certain threshold, the computer will choose to stop raising (returning 's'), otherwise, it will choose to continue raising (returning 'c').
 
 Results calculation and fund adjustment:
 The Result function is used to calculate the results of each round and adjust the fund based on the results.
@@ -59,17 +59,24 @@ Depending on the results, the fund will increase or decrease accordingly.
 
 Game loop:
 The game progresses through multiple rounds through loops.
-The conditions in the loop determine whether the player's funds are sufficient to continue the game, and also check whether the player chooses to exit the game.
-After each round, the results are calculated and the funds adjusted by calling the Result function.
+The conditions in the loop determine whether the player's funds are sufficient to continue the game and also check whether the player chooses to exit the game.
+After each round, the results are calculated, and the funds are adjusted by calling the Result function.
 The program will ask the player whether to continue to the next round and decide whether to continue the cycle based on the player's choice.
 
 Input and output:
 Games interact with players through input and output.
-The output part uses cout statements to display game status information, raise tips, and result information to players.
-The input part uses the cin statement to receive the player's raise selection and decision to continue the game.
+The output part uses cout statements to display game status information, raise tips, and result in information to players.
+The input part uses the cin statement to receive the player's raise selection and the decision to continue the game.
+
+ATTENTION!!!
+
+When a player wins, the number of tokens displayed at the end of each round is the number of funds displayed last time + the number of tokens won.
+However, when the player loses, the number of tokens at the end of the round is the same as the last number of tokens displayed.
+Because the amount of winning or losing is displayed as the funds invested by oneself + the funds invested by the computer, that is, the sum of the raise and the initial start of this round of the game. But the actual change in the number of tokens of the player should be: the amount of winning is the amount of funds raised by the computer, and the amount of losing is The money you invested.
+
 
 Compilation and Execution Instructions
 
-Download the ZIP containing the files, and extract it onto your desktop, or any other working directory.
+Download the ZIP containing the files, and extract it onto your desktop or any other working directory.
 In the terminal, navigate to the working directory containing the files, and run the command 'make sixcard'
 Run the command './sixcard ' on the terminal to play the game.
