@@ -2,7 +2,16 @@
 Team Members
 
 Li Chengpu (3036087236, GitHub: paojiaoLI)
+
+Contributions: 50%. finish 80% of the sixcard.cpp coding, function 'result' in functionused.cpp coding and functionused.h coding. Program debugging + language optimization
+
+
 Han Shicheng (3035973232, Github: Woyouyichi)
+
+Contributions: 50%. finish 20% of the sixcard.cpp coding (file input&output), function 'conputer1' and 'Send_Card' in functionused.cpp coding. Program debugging + language optimization
+
+We finished the sample output and video together. The contribution graph on GitHub has no reference value. It should be followed the instructions here and on moodle.
+
 
 Description of the project:
 
