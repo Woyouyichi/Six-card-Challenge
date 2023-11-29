@@ -73,7 +73,6 @@ int main()
                     }
                     else
                     {
-                        Fund = Fund + 10;
                         break;
                     }
                     char a = computer1(i, CsCard);
@@ -121,7 +120,6 @@ int main()
                     }
                     else
                     {
-                        Fund = Fund + 10;
                         break;
                     }
                 }
