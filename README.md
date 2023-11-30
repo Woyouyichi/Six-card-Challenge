@@ -17,6 +17,8 @@ Description of the project:
 
 Title: Six-Card challenge
 
+the link for the video: https://drive.google.com/file/d/1F0q_Bn-OV69ly8AMIHEW2-sB3zmMiaJZ/view?usp=sharing
+
 Description:
 This is a card-based game. Players and the computer will take turns drawing two cards, up to three rounds, and compare the final points and sizes. At the beginning of each round, both players can choose to raise or withdraw.
 
